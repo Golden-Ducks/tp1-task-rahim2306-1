@@ -56,9 +56,13 @@ for sentence in data:
 
 
 
-#    line 25 : 
-# Use string.punctuation
-#import the string module to avoid typing out punctuation manually
+#     line 25
+# Use string.punctuation bcz it's better than typing out the marks manually
+# import the string module at the top
 
-#and btw, building strings with += inside a loop is discouraged bcz strings are immutable
-#you can also use .get() method for dicts to handle the numbers
+#     line 33
+# building strings with += inside a loop is discouraged bcz strings are immutable
+# use a list and then .join() for better performance
+
+#     line 31
+# you can use .get() method for dicts here to handle the numbers more cleanly
