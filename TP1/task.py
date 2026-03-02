@@ -52,3 +52,13 @@ for sentence in data:
     normalized = normalise(sentence)
     print(normalized)
     print(tokenize(normalized))
+
+
+
+
+#    line 25 : 
+# Use string.punctuation
+#import the string module to avoid typing out punctuation manually
+
+#and btw, building strings with += inside a loop is discouraged bcz strings are immutable
+#you can also use .get() method for dicts to handle the numbers
